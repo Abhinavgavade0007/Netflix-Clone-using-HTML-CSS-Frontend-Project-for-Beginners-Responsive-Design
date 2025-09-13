@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 95vh;
+    position: relative;
+}
+
+.main .box {
+    height: 95vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.75;
+    position: absolute;
+    top: 0%
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    gap: 300px;
+    align-items: center;
+    height: 92px;
+}
+
+nav img {
+    color: red;
+    width: 140px;
+    height: 90px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.firstbtn {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+
+.firstbtn select {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+.secbtn {
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'martel-sans', sans-serif;
+    position: relative;
+    z-index: 10;
+    margin-top: -50px;
+}
+
+.hero> :first-child {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 7px;
+}
+
+.buttons input {
+    width: 320px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.buttons button {
+    background-color: red;
+    color: white;
+    width: 180px;
+    font-size: larger;
+    border-radius: 4px;
+    border: 2px solid red;
+}
+
+.trending {
+    padding: 20px 0;
+    background: #000;
+    color: #fff;
+    margin-top: 50px;
+}
+.trending-now{
+    font-size: 30px;
+    margin-left: 150px;
+    font-family: 'martel-sans', sans-serif;
+}
+
+.trending h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    font-family: 'martel-sans', sans-serif;
+}
+
+.trending-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 150px;
+}
+
+.trending-slider {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.trending-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    flex: 0 0 15%;
+    cursor: pointer;
+    scroll-snap-align: start;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.scroll-btn {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: default;
+    z-index: 5;
+}
+
+.scroll-btn.left {
+    left: 0;
+}
+
+.scroll-btn.right {
+    right: 0;
+}
+
+.chotadabba {
+    width: 10vw;
+    height: 30vh;
+    border: 2px solid white;
+    align-items: center;
+}
+
+.morereasons {
+    color: white;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.lastkboxes {
+    margin-left: 150px;
+    display: flex;
+    width: 80vw;
+    height: 41vh;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.lastkboxes .lastk {
+    width: 300px;
+    height: 300px;
+    color: white;
+    gap: 20px;
+    border-radius: 15px;
+    background-color: #1E1528;
+}
+
+.lastk h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'martel-sans', sans-serif;
+}
+
+.lastk h4 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: 'martel-sans', sans-serif;
+}
+
+.lastk img {
+    margin-left: 180px;
+    font-family: 'martel-sans', sans-serif;
+}
+.faq{
+    color: white;
+    font-family: 'martel-sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.faq h2{
+    padding: 0px 150px;
+}
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(67, 67, 67);
+    padding: 30px;
+    width: 76vw;
+    margin: auto;
+    align-items: center;
+    font-size: larger;
+    font-family: 'martel-sans', sans-serif;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: rgb(95, 95, 95);
+}
+.lastbuttons {
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonss {
+    justify-content: center;
+}
+
+.lastbuttons .buttonss {
+    display: flex;
+    gap: 7px;
+}
+
+.lastbuttons span {
+    margin-left: 500px;
+    font-family: 'martel-sans', sans-serif;
+}
+
+.buttonss input {
+    width: 520px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.buttonss button {
+    background-color: red;
+    color: white;
+    width: 180px;
+    font-size: larger;
+    border-radius: 4px;
+    border: 2px solid red;
+}
+
+.lastbuttons span {
+    color: white;
+    font-family: 'martel-sans', sans-serif;
+}
+
+footer .firstbtn {
+    margin-left: 150px;
+    border-radius: 2px solid white;
+}
+
+footer h3 {
+    color: white;
+    font-family: 'martel-sans', sans-serif;
+    font-weight: 300;
+    padding: 0px 150px;
+}
+
+footer h4 {
+    color: white;
+    font-weight: 200;
+    font-family: 'martel-sans', sans-serif;
+    font-size: small;
+    padding: 0px 150px;
+}
+
+.endkapart {
+    width: 80vw;
+    height: 20vh;
+    margin-left: 150px;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: 'martel-sans', sans-serif;
+}
+
+.endkachotapart {
+    width: 50%;
+    height: 50%;
+    font-family: 'martel-sans', sans-serif;
+}
+
+.endkachotapart a {
+    color: white;
+    font-family: 'martel-sans', sans-serif;
+    font-size: small;
+    font-weight: 500;
+}
