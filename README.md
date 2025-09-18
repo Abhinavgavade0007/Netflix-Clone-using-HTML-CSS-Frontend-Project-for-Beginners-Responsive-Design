@@ -2,7 +2,7 @@
 
 This is a **pixel-perfect Netflix Homepage Clone UI** created using only **HTML & CSS**.  
 The design looks **exactly like the original Netflix landing page** and is fully responsive across devices.  
-
+![image alt](https://github.com/Abhinavgavade0007/Netflix-Clone-using-HTML-CSS-Frontend-Project-for-Beginners-Responsive-Design/blob/8f039226085e52cda3c2332e3b775b42ebd0848b/netflixhomepage.jpg)
 ---
 
 ## 📌 Features
