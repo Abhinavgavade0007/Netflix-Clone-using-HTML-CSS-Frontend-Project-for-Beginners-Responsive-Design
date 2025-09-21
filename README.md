@@ -7,6 +7,8 @@ The design looks **exactly like the original Netflix landing page** and is fully
 ![image alt](https://github.com/Abhinavgavade0007/Netflix-Clone-using-HTML-CSS-Frontend-Project-for-Beginners-Responsive-Design/blob/74a39955a85f0b5983159dd92ed6812b52ed9fd1/netflixhomepage2.jpg)
 
 ![image alt](https://github.com/Abhinavgavade0007/Netflix-Clone-using-HTML-CSS-Frontend-Project-for-Beginners-Responsive-Design/blob/1e89388ba2bbaef32ee3a8f601a746621632bc32/netflixhomepage3.jpg)
+
+![image alt](https://github.com/Abhinavgavade0007/Netflix-Clone-using-HTML-CSS-Frontend-Project-for-Beginners-Responsive-Design/blob/1556d3373461578077221917c388b83feb5a14c7/netflixhomepage4.jpg)
 ---
 
 ## 📌 Features
